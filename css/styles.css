@@ -1,0 +1,95 @@
+body {
+  background: white;
+  font-family: 'Bitter', serif;
+  color: #100007; 
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#lang-toggle {
+  color: #7A8B99;
+}
+
+.lang {
+  cursor: pointer;
+}
+
+#about-me {
+  font-size: 25px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#school {
+  color: #A52422;
+}
+
+#mma {
+  color: #0094C6;
+}
+
+#books {
+  color: #624CAB;
+}
+
+#latin {
+  color: #F5B700;
+}
+
+#social {
+  font-size: 18px;
+}
+
+#social > a {
+  color: black;
+}
+
+/* Projects */
+#projects-title {
+  font-size: 25px;
+  margin-top: 40px;
+  text-decoration: underline;
+}
+
+#projects-list {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-device-width: 480px) {
+  #projects-list {
+    width: 25%;
+  }
+}
+
+.project {
+  background: black;
+  color: white;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  max-width: 210px;
+}
+
+.project:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.projects-list:nth-child(1) {
+  background: #D84796;
+}
+
+.project-description {
+  width: 200px;
+}
